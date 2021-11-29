@@ -1,0 +1,17 @@
+
+//header
+.splash-nav {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/3379934/pexels-photo-3379934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center center;
+    background-size: cover;
+    
+}
+.splash-intro {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
