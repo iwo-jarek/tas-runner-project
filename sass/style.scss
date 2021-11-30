@@ -1,17 +1,73 @@
 
+
 //header
 .splash-nav {
+    display:flex;
     height: 100vh;
     position: relative;
     background-image: url('https://images.pexels.com/photos/3379934/pexels-photo-3379934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-position: center center;
     background-size: cover;
+    justify-content: space-between;
     
 }
 .splash-intro {
+    color: #ffff;
+    display: flex;
     position: absolute;
     width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.btn {
+    color:#ffff
+}
+
+//services
+ .services .container .title .title-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+ }
+
+ .services .container .title .title-text {
+    font-style: italic;
+    display:flex;
+    justify-content: center;
+ }
+
+ .services .container .row .card {
+    display:flex;
+    justify-content: center;
+    border: none; 
+ }
+
+//portfolio
+.products {
+    background-color: rgb(241, 238, 238);
+}
+.products .container .title .title-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.products .container .title .title-text {
+    font-style: italic;
+    display:flex;
+    justify-content: center;
+}
+.products .container .row .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.products .container .row .card-image img {
+    width: 100%;
+    height: 300%;
+    object-fit: cover;
+}
+
